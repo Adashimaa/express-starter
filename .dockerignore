@@ -1,0 +1,8 @@
+node_modules
+Dockerfile*
+docker-compose*
+README.md
+LICENSE
+.git
+.gitignore
+.dockerignore
