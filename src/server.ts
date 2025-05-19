@@ -18,7 +18,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Middleware to handle errors
-app.use(errorHandler);
 
 // ---- Routes ---- //
 
@@ -27,6 +26,8 @@ app.get("/", (req: Request, res: Response) => {
 });
 
 app.use("/api/v1", userRoute);
+
+app.use(errorHandler);
 
 app.listen(port, () => {
   console.log("Server is running on port 3000");
