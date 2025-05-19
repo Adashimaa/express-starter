@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "server": "bun run ./src/server.ts"
+    "server": "bun --watch ./src/server.ts"
   },
   "dependencies": {
     "@types/cors": "^2.8.18",
