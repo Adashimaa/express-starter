@@ -26,37 +26,8 @@ bun install
 ### Development
 
 ```bash
-bun run dev
+bun run server
 ```
-
-### Build
-
-```bash
-bun run build
-```
-
-### Start
-
-```bash
-bun run start
-```
-
-## Project Structure
-
-```
-.
-├── src/
-│   └── index.ts      # Entry point
-├── tsconfig.json     # TypeScript config
-├── package.json      # Project metadata
-└── bun.lockb         # Bun lockfile
-```
-
-## Scripts
-
-- `dev` – Start in development mode with hot reload
-- `build` – Compile TypeScript
-- `start` – Run compiled code
 
 ## License
 
